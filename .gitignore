@@ -1,4 +1,10 @@
 node_modules/
-[zZ]*
+
+# Ignores all files starting with the letter z.
+z*
+
+# Ignores a file called .env.
 .env
-artifcats/
+
+# Ignores a top-level directory named artifacts
+/artifcats/
